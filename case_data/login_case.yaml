@@ -1,0 +1,20 @@
+-   request_data:
+        username: admin
+        password: '123456'
+    response_data:
+        msg: 登录成功
+-   request_data:
+        username: linken
+        password: '123456'
+    response_data:
+        msg: 该用户已经被禁用
+-   request_data:
+        username: asdf1
+        password: '123456'
+    response_data:
+        msg: 密码错误
+-   request_data:
+        username: hpj1
+        password: '123456'
+    response_data:
+        msg: 该用户没有权限登录

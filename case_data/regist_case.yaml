@@ -1,0 +1,10 @@
+-   request_data:
+        username: hpj${random.int(0,1000)}
+        password: 123456
+    response_data:
+        msg: 创建成功
+-   request_data:
+        username: hpj
+        password: 123456
+    response_data:
+        msg: 创建失败
